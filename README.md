@@ -47,7 +47,7 @@ Here in this notebook I do basic exploratory data analysis on the dataset to get
 ![image](https://user-images.githubusercontent.com/49127037/139366114-4bd5fd8b-08b0-461c-aee1-a6b061241de3.png)
 
 
-## Data Preprocessing and model building
+# Data Preprocessing and model building
 In this notebook , I have done the following things :
 
 * The dataset is standardized using Min-Max Scaler because K means algorithm is a distance based algorithm. This scales the values with the distribution of mean=0 and variance=1. All variables have a common scale now
@@ -62,5 +62,37 @@ In this notebook , I have done the following things :
 * **Final clustering -** Using cluster=6, we get 6 prominent clusters with follwoing description - 
 
 ![image](https://user-images.githubusercontent.com/49127037/139371272-c87caf9e-1f16-472c-97a2-24cfe3760c8f.png)
+
+## Analysis and Recommendations
+
+**1.Cluster Analysis :**
+
+_**Most Valuable-(High spending score, high income, young age)-**_  These are 'loyal' customers. They can be targeted by sending new product alerts by SMS/email campaigning. This group can bring steady increase of revenue
+
+_**Very Valuable-(High spending score, low income, young age)-**_ These customers like to spend but have low income. 
+This segment can be targeted by the business by providing them low-cost EMI's so that they can continue to spend and keep coming to the shopping centre .The business can also think of setting up food-courts/movie halls where young crowd can hang out with friends and family.
+
+_**Targets-(Low spending score, high income, moderate age)-**_  These customer segment can be send email's and ask their feedback on which ways the shopping plaza can be improved. May be the air-conditioning is not great or the escalators do not work. Proper feedback can help the business to convert these segment to 'Most Valuable' segment
+
+_**Valuable-(Moderate spending score, moderate income, young age-**_ This cluster has a high potential to get converted into the 'Most Valuable'.Business can target this segment by sending regular SMS alerts and email newsletters of any sales/promotion of the shopping center. 
+
+_**Less Valuable-(Moderate spending score, moderate income, high age-**_ By trend, senior age group tends to spend less. These people like familiarity and easy shopping. They tend to be sensitive about price values. These customers can be targeted by sending physical/paper catalogs whenever there is a promotion/discount offers going on.
+
+_**Least Valuable-(Low spending score, low income, moderate age-)**_ This is the hardest segment to convert. To target these customers, Business can come up with innovative ideas such as, coming up with a contest where shoppers at the mall can win exciting prizes by spending a minimum amount. This will increase their foot traffic and help in increasing the spending score
+
+**1. 'Least Valuable' segment is the second highest cluster in size-** This Least Valuable segment has low income and low spending score. Though their foot-traffic is high, they have low spending score. The business can offer these customers with initial discount offers clubbed with low cost payment plans so that their spending score start increasing.
+![image](https://user-images.githubusercontent.com/49127037/139372689-c6f6ed69-d0c7-4105-8caf-700b197ced54.png)
+
+**2. Female dominates most of clusters-** We see that except 'Most Valuable' segment, females are the majority .The business might think of how they can encourage more male customers to come into their shopping malls? May be setting up more men-clothing store or toys/gadget stores etc ?  
+
+![image](https://user-images.githubusercontent.com/49127037/139373181-80478835-2563-409f-b079-3e11e1d594c1.png)
+
+**3 Numerical features and Clusters**
+
+![image](https://user-images.githubusercontent.com/49127037/139374705-e5484e81-d685-494f-8eb8-db33acd969b5.png)
+
+
+
+
 
 
