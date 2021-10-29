@@ -47,5 +47,20 @@ Here in this notebook I do basic exploratory data analysis on the dataset to get
 ![image](https://user-images.githubusercontent.com/49127037/139366114-4bd5fd8b-08b0-461c-aee1-a6b061241de3.png)
 
 
+## Data Preprocessing and model building
+In this notebook , I have done the following things :
+
+* The dataset is standardized using Min-Max Scaler because K means algorithm is a distance based algorithm. This scales the values with the distribution of mean=0 and variance=1. All variables have a common scale now
+* Build k-means algorithm model 
+
+## Model building
+
+* **Elbow Method-** Through Elbow method,the optimum number of cluster is chosen when we have a diminishing value of the WCSS. This exercise gave the number of clusters as 6.
+
+![image](https://user-images.githubusercontent.com/49127037/139370882-663957b3-91ea-419f-87ea-4df0723ad544.png)
+
+* **Final clustering -** Using cluster=6, we get 6 prominent clusters with follwoing description - 
+
+![image](https://user-images.githubusercontent.com/49127037/139371272-c87caf9e-1f16-472c-97a2-24cfe3760c8f.png)
 
 
