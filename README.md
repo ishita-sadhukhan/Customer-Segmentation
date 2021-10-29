@@ -65,7 +65,7 @@ In this notebook , I have done the following things :
 
 ## Analysis and Recommendations
 
-**1.Cluster Analysis :**
+**1. Cluster Analysis :** Let's analyze the characteristic of each cluster and how they can help a business to target each segment
 
 _**Most Valuable-(High spending score, high income, young age)-**_  These are 'loyal' customers. They can be targeted by sending new product alerts by SMS/email campaigning. This group can bring steady increase of revenue
 
@@ -76,23 +76,22 @@ _**Targets-(Low spending score, high income, moderate age)-**_  These customer s
 
 _**Valuable-(Moderate spending score, moderate income, young age-**_ This cluster has a high potential to get converted into the 'Most Valuable'.Business can target this segment by sending regular SMS alerts and email newsletters of any sales/promotion of the shopping center. 
 
-_**Less Valuable-(Moderate spending score, moderate income, high age-**_ By trend, senior age group tends to spend less. These people like familiarity and easy shopping. They tend to be sensitive about price values. These customers can be targeted by sending physical/paper catalogs whenever there is a promotion/discount offers going on.
 
-_**Least Valuable-(Low spending score, low income, moderate age-)**_ This is the hardest segment to convert. To target these customers, Business can come up with innovative ideas such as, coming up with a contest where shoppers at the mall can win exciting prizes by spending a minimum amount. This will increase their foot traffic and help in increasing the spending score
+_**Less Valuable-(Moderate spending score, moderate income, high age-**_ By trend, senior age group tends to spend less. These people like familiarity and easy shopping. These customers can be targeted by sending physical/paper catalogs whenever there is a promotion/discount offers going on.
 
-**1. 'Least Valuable' segment is the second highest cluster in size-** This Least Valuable segment has low income and low spending score. Though their foot-traffic is high, they have low spending score. The business can offer these customers with initial discount offers clubbed with low cost payment plans so that their spending score start increasing.
-![image](https://user-images.githubusercontent.com/49127037/139372689-c6f6ed69-d0c7-4105-8caf-700b197ced54.png)
-
-**2. Female dominates most of clusters-** We see that except 'Most Valuable' segment, females are the majority .The business might think of how they can encourage more male customers to come into their shopping malls? May be setting up more men-clothing store or toys/gadget stores etc ?  
-
-![image](https://user-images.githubusercontent.com/49127037/139373181-80478835-2563-409f-b079-3e11e1d594c1.png)
-
-**3 Numerical features and Clusters**
+_**Least Valuable-(Low spending score, low income, moderate age-)**_ This is the hardest segment to convert. To target these customers, Business can come up with innovative ideas such as, coming up with a contest where shoppers at the mall can win exciting prizes by spending a minimum amount. This will increase the foot traffic and help in increasing the spending score
 
 ![image](https://user-images.githubusercontent.com/49127037/139374705-e5484e81-d685-494f-8eb8-db33acd969b5.png)
 
+**2. 'Least Valuable' segment is the second highest cluster in size-** This Least Valuable segment has low income and low spending score. Though their foot-traffic is high, they have low spending score. The business can offer these customers with initial discount offers clubbed with low cost payment plans so that their spending score start increasing.
+![image](https://user-images.githubusercontent.com/49127037/139372689-c6f6ed69-d0c7-4105-8caf-700b197ced54.png)
 
+**3. Female dominates most of clusters-** We see that except 'Most Valuable' segment, females are the majority .The business might think of how they can encourage more male customers to come into their shopping malls? May be setting up more men-clothing store or toys/gadget stores etc ?  
 
+![image](https://user-images.githubusercontent.com/49127037/139373181-80478835-2563-409f-b079-3e11e1d594c1.png)
+
+## Conclusion
+This segmentation technique is hugely helpful for the marketing team or business of a shopping center. The
 
 
 
