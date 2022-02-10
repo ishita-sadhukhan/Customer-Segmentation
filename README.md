@@ -10,7 +10,7 @@ Marketing teams in Shopping Centre investement are hugely driven in the race to 
 Customer segmentation helps the marketing team to recognize and expose different customer  segments that act differently and thus follow different purchasing strategies. Customer segmentation helps in figuring out the customers who vary in terms of preferences and expectations.  The  main  purpose  of  performing customer segmentation is to group people, who have similar interest so that the marketing team can work together in an effective marketing  plan.
 
 # Data Collection
-The dataset is retrieved from Kaggle. It contains 200 customer records with 4 features like **gender,age, income and a spending score of the cutomer**. The spending score is given to the customer based on their spending pattern.The machine learning model should be able to predict future house price in this county
+The dataset is retrieved from Kaggle. It contains 200 customer records with 4 features like **gender,age, income and a spending score of the customer**. The spending score is given to the customer based on their spending pattern
 
 # Exploratory Data Analysis with Feature Engineering
 Here in this notebook I do basic exploratory data analysis on the dataset to get an understanding of the data. Python packages like matplotlib and seaborn are used. Things I covered :
